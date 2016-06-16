@@ -56,11 +56,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContextTransmitter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setting.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/setting.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.91721135">
+              <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+              <folding>
+                <element signature="e#157#182#0" expanded="true" />
+                <element signature="e#239#273#0" expanded="true" />
+                <element signature="e#300#330#0" expanded="true" />
+                <element signature="e#485#522#0" expanded="true" />
+                <element signature="e#768#794#0" expanded="true" />
+                <element signature="e#1000#1030#0" expanded="true" />
+                <element signature="e#1236#1268#0" expanded="true" />
+                <element signature="e#1474#1503#0" expanded="true" />
+                <element signature="e#1709#1736#0" expanded="true" />
+                <element signature="e#1942#1965#0" expanded="true" />
+                <element signature="e#2171#2197#0" expanded="true" />
+                <element signature="e#2403#2432#0" expanded="true" />
+                <element signature="e#2638#2665#0" expanded="true" />
+                <element signature="e#2925#2950#0" expanded="true" />
+                <element signature="e#3211#3248#0" expanded="true" />
+                <element signature="e#3509#3542#0" expanded="true" />
+                <element signature="e#3803#3838#0" expanded="true" />
+                <element signature="e#4099#4136#0" expanded="true" />
+                <element signature="e#4266#4299#0" expanded="true" />
+                <element signature="e#4370#4408#0" expanded="true" />
+                <element signature="e#4435#4469#0" expanded="true" />
+                <element signature="e#4537#4567#0" expanded="true" />
+                <element signature="e#4702#4731#0" expanded="true" />
+                <element signature="e#4878#4910#0" expanded="true" />
+                <element signature="e#4980#5017#0" expanded="true" />
+                <element signature="e#5044#5077#0" expanded="true" />
+                <element signature="e#5146#5171#0" expanded="true" />
+                <element signature="e#5208#5230#0" expanded="true" />
+                <element signature="e#5292#5312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextTransmitter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/infidea/cma/communicator/ContextTransmitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6858316">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1642,7 +1682,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/setting.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/infidea/cma/setting/SettingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/infidea/cma/ContextListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/infidea/cma/setting/SettingFragment.java" />
@@ -1654,6 +1693,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/infidea/cma/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/infidea/cma/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/infidea/cma/communicator/ContextTransmitter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/setting.xml" />
       </list>
     </option>
   </component>
@@ -2060,7 +2100,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20570749" sideWeight="0.50298506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189189" sideWeight="0.49701494" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22695035" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22606383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2439,14 +2479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/setting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15599343">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2532,10 +2564,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/infidea/cma/communicator/ContextTransmitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6858316">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/setting.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91721135">
+          <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+          <folding>
+            <element signature="e#157#182#0" expanded="true" />
+            <element signature="e#239#273#0" expanded="true" />
+            <element signature="e#300#330#0" expanded="true" />
+            <element signature="e#485#522#0" expanded="true" />
+            <element signature="e#768#794#0" expanded="true" />
+            <element signature="e#1000#1030#0" expanded="true" />
+            <element signature="e#1236#1268#0" expanded="true" />
+            <element signature="e#1474#1503#0" expanded="true" />
+            <element signature="e#1709#1736#0" expanded="true" />
+            <element signature="e#1942#1965#0" expanded="true" />
+            <element signature="e#2171#2197#0" expanded="true" />
+            <element signature="e#2403#2432#0" expanded="true" />
+            <element signature="e#2638#2665#0" expanded="true" />
+            <element signature="e#2925#2950#0" expanded="true" />
+            <element signature="e#3211#3248#0" expanded="true" />
+            <element signature="e#3509#3542#0" expanded="true" />
+            <element signature="e#3803#3838#0" expanded="true" />
+            <element signature="e#4099#4136#0" expanded="true" />
+            <element signature="e#4266#4299#0" expanded="true" />
+            <element signature="e#4370#4408#0" expanded="true" />
+            <element signature="e#4435#4469#0" expanded="true" />
+            <element signature="e#4537#4567#0" expanded="true" />
+            <element signature="e#4702#4731#0" expanded="true" />
+            <element signature="e#4878#4910#0" expanded="true" />
+            <element signature="e#4980#5017#0" expanded="true" />
+            <element signature="e#5044#5077#0" expanded="true" />
+            <element signature="e#5146#5171#0" expanded="true" />
+            <element signature="e#5208#5230#0" expanded="true" />
+            <element signature="e#5292#5312#0" expanded="true" />
           </folding>
         </state>
       </provider>

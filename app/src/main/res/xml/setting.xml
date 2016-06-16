@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <PreferenceCategory android:title="@string/account_setting" >
-        <Preference android:title="@string/logout_label"
-            android:key="logout"
-            android:summary="@string/logout_sum"/>
-    </PreferenceCategory>
     <PreferenceCategory android:title="@string/sensing_setting" >
         <PreferenceScreen
             android:summary="@string/context_list_setting_sum"
@@ -112,4 +107,9 @@
             android:title="@string/transfer_period_setting" />
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="@string/account_setting" >
+        <Preference android:title="@string/logout_label"
+            android:key="logout"
+            android:summary="@string/logout_sum"/>
+    </PreferenceCategory>
 </PreferenceScreen>

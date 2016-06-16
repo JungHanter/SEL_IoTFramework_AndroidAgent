@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\context_view.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\layout\\context_view.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_blue.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable\\box_blue.xml"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_box.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable\\button_box.xml"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_dark_blue.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable\\box_dark_blue.xml"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.xml",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable\\button.xml"
+    }
+]

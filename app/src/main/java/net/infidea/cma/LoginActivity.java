@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -88,10 +89,13 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                                     editor.putString("serverAddr", addr);
                                     editor.apply();
                                     login();
+                                } else {
+                                    Toast.makeText(LoginActivity.this, "Failed to login. Enter right ID and PW.", Toast.LENGTH_LONG).show();
                                 }
                             }
                         } catch (IOException e) {
                             e.printStackTrace();
+                            Toast.makeText(LoginActivity.this, "Cannot access to the address.", Toast.LENGTH_LONG).show();
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

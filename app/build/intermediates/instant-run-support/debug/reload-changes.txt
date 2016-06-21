@@ -1,3 +1,0 @@
-CHANGED,H:\ws-android-studio\android-agent\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\infidea\cma\communicator\ContextTransmitter$1$override.class
-CHANGED,H:\ws-android-studio\android-agent\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\infidea\cma\communicator\ContextTransmitter$override.class
-CHANGED,H:\ws-android-studio\android-agent\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

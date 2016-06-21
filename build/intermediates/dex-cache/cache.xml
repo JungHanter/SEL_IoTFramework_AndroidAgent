@@ -1,26 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="H:\env-android\SDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="H:\ws-android-studio\android-agent\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_f5bfafac159721a39924b7905a064f87f7a5bcfa.jar" />
-    </item>
-    <item
-        jar="H:\ws-android-studio\android-agent\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="36ce806061f359cd90398018b0eebdfc245e91b6">
-        <dex dex="H:\ws-android-studio\android-agent\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_634e835aa0864ce754be1189468524ea1c00c351.jar" />
-    </item>
-    <item
-        jar="H:\ws-android-studio\android-agent\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="8c03772078b40f400d18463281de5e647a9f627a">
-        <dex dex="H:\ws-android-studio\android-agent\app\build\intermediates\pre-dexed\debug\instant-run_776bf6d7c0fb90cb238427f55e5238eee3c20d4b.jar" />
-    </item>
-
-</items>

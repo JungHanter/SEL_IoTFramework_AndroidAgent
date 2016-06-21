@@ -90,12 +90,20 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                                     editor.apply();
                                     login();
                                 } else {
-                                    Toast.makeText(LoginActivity.this, "Failed to login. Enter right ID and PW.", Toast.LENGTH_LONG).show();
+                                    runOnUiThread(new Runnable() {
+                                        public void run() {
+                                            Toast.makeText(LoginActivity.this, "Failed to login. Enter right ID and PW.", Toast.LENGTH_LONG).show();
+                                        }
+                                    });
                                 }
                             }
                         } catch (IOException e) {
                             e.printStackTrace();
-                            Toast.makeText(LoginActivity.this, "Cannot access to the address.", Toast.LENGTH_LONG).show();
+                            runOnUiThread(new Runnable() {
+                                public void run() {
+                                    Toast.makeText(LoginActivity.this, "Cannot access to the address.", Toast.LENGTH_LONG).show();
+                                }
+                            });
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

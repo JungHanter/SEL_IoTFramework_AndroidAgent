@@ -4,30 +4,71 @@
     api-level="19"
     density="xhdpi"
     format="7"
-    timestamp="206674608423517"
-    token="4864776827927034208" >
+    timestamp="784147460972648"
+    token="4864776827927034208"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="246" />
+        duration="257" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="271" />
     <task
         name="instant-run-transform"
-        duration="53" />
+        duration="17" />
     <task
         name="verifier"
-        duration="7" />
+        duration="2" />
 
     <artifact
-        location="H:\ws-android-studio\android-agent\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="H:\ws-android-studio\android-agent\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="206674608423517" >
+    <build timestamp="740590119507810" >
         <artifact
             location="H:\ws-android-studio\android-agent\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="740770943765084" >
+        <artifact
+            location="H:\ws-android-studio\android-agent\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="782397148942103"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="H:\ws-android-studio\android-agent\app\build\intermediates\builds\debug\782397148942103\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="782431054727908"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="H:\ws-android-studio\android-agent\app\build\intermediates\builds\debug\782431054727908\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="783911362001659"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="H:\ws-android-studio\android-agent\app\build\intermediates\builds\debug\783911362001659\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="784055287277973"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="H:\ws-android-studio\android-agent\app\build\intermediates\builds\debug\784055287277973\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="784147460972648"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="H:\ws-android-studio\android-agent\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

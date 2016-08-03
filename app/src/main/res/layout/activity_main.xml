@@ -167,7 +167,7 @@
         android:id="@+id/contextInfoLl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/dividerFooter"
+        android:layout_above="@+id/dividerLog"
         android:layout_below="@+id/dividerSettingInfo"
         android:orientation="vertical"
         android:weightSum="1" >
@@ -237,7 +237,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="3dp"
                         android:textColor="@color/white"
-                        android:textSize="10sp" />
+                    android:textSize="10sp" />
                 </LinearLayout>
             </ScrollView>
 
@@ -254,6 +254,19 @@
 
         </RelativeLayout>
     </LinearLayout>
+
+    <View
+        android:id="@+id/dividerLog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/log"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignBottom="@+id/dividerFooter" />
 
     <View
         android:id="@+id/dividerFooter"

@@ -40,7 +40,7 @@ public class ContextMonitor implements SensorEventListener, LocationListener {
 	
 	// Location manager
 	private LocationManager locationManager = null;
-	
+
 	public ContextMonitor(Context context, ContextInfoUpdater contextInfoUpdater) {
 		this.context = context;
 		this.contextInfoUpdater = contextInfoUpdater;

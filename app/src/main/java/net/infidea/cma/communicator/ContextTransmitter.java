@@ -1,10 +1,13 @@
 package net.infidea.cma.communicator;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
 import net.infidea.cma.ContextPack;
+import net.infidea.cma.Logger;
 import net.infidea.cma.monitor.ContextMonitor;
 import net.infidea.cma.setting.SettingActivity;
 
@@ -22,6 +25,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.widget.Toast;
 
 public class ContextTransmitter {
 	private static final String TAG = "ContextTransmitter";
@@ -30,6 +34,8 @@ public class ContextTransmitter {
 	private String url = "";
 	private Timer transmissionTimer;
 	private String deviceItemId;
+	private Logger logger;
+	private SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 
 	public ContextTransmitter(Context context, ContextMonitor contextMonitor) {
 		// TODO Auto-generated constructor stub
@@ -43,9 +49,16 @@ public class ContextTransmitter {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
+
+		logger = new Logger(context);
 	}
 
 	public void sendToServer() {
+
+		Date timeFrom = new Date();
+		String timeFromStr = this.dateformat.format(timeFrom);
+		Log.d(TAG, "Transmission Start Time: "+timeFromStr);
+
 		ContextPack contextPack = contextMonitor.getContextPack();
 		synchronized (contextPack) {
 			try {
@@ -74,6 +87,15 @@ public class ContextTransmitter {
 				e.printStackTrace();
 			}
 		}
+
+		Date timeTo = new Date();
+		String timeToStr = this.dateformat.format(timeTo);
+		Log.d(TAG, "Transmission End Time: "+timeToStr);
+		long elapsedTime = timeTo.getTime()-timeFrom.getTime();
+		Log.d(TAG, "Elapsed Time: "+elapsedTime+" ms");
+
+		logger.addLog("[Transmission] "+timeFromStr+"~"+timeToStr+" ("+elapsedTime+" ms)");
+		logger.display();
 	}
 
 	public void start() {

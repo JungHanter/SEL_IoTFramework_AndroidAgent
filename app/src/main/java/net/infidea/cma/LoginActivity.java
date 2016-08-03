@@ -6,6 +6,8 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.Handler;
+import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
@@ -24,6 +26,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class LoginActivity extends Activity implements View.OnClickListener {
     private final int REQCODE = 777;
@@ -31,6 +36,8 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 
     private String mac = null;
     private SharedPreferences session = null;
+    private SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+    private Handler mHandler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +73,9 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                 new Thread() {
                     @Override
                     public void run() {
+                        Date timeFrom = new Date();
+                        final String timeFromStr = "Start Time: "+LoginActivity.this.dateformat.format(timeFrom);
+                        Log.d(TAG, timeFromStr);
                         try {
                             DefaultHttpClient client = new DefaultHttpClient();
                             HttpPost post = new HttpPost(addr+"/api/connect");
@@ -107,6 +117,17 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
+                        Date timeTo = new Date();
+                        final String timeToStr = "End Time: "+LoginActivity.this.dateformat.format(timeTo);
+                        Log.d(TAG, timeToStr);
+                        final String elapsedTimeStr = "Elapsed Time: "+(timeTo.getTime()-timeFrom.getTime())+" ms";
+                        Log.d(TAG, elapsedTimeStr);
+                        mHandler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(LoginActivity.this, timeFromStr+'\n'+timeToStr+'\n'+elapsedTimeStr, Toast.LENGTH_LONG).show();
+                            }
+                        });
                     }
                 }.start();
             }

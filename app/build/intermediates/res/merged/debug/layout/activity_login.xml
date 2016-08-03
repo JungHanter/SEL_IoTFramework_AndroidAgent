@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textUri"
-                android:text="http://203.253.23.70"/>
+                android:text="http://203.253.23.30:8000"/>
         </TableRow>
         <TableRow android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -51,7 +51,8 @@
                 android:id="@+id/editTextID"
                 android:layout_weight="0.8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="smartylab" />
         </TableRow>
         <TableRow android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -65,7 +66,8 @@
                 android:layout_weight="0.8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword"
+                android:text="1234" />
         </TableRow>
     </TableLayout>
     <Button

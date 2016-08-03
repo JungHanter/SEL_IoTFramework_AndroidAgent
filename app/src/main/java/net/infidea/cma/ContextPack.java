@@ -11,6 +11,7 @@ import android.hardware.SensorEvent;
 import android.location.Location;
 
 public class ContextPack extends JSONArray {
+
 	public void put(SensorEvent event) {
 		try {
 			JSONObject context = new JSONObject();

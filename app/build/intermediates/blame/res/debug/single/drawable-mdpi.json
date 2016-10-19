@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_settings.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_av_stop.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_av_stop.png"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_about.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_action_about.png"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_navigation_cancel.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_navigation_cancel.png"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_search.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\ws-android-studio\\android-agent\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_av_play.png",
+        "source": "H:\\ws-android-studio\\android-agent\\app\\src\\main\\res\\drawable-mdpi\\ic_av_play.png"
+    }
+]
